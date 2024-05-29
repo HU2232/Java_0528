@@ -2,7 +2,7 @@ package day02;
 
 import java.util.Scanner;
 
-public class ScannerEX02 {
+public class ScannerEX2 {
 
 	public static void main(String[] args) {
 		/* 두 정수와 연낮를 입력 받고 입력받은 결과를 콘솔에 출력할 것.

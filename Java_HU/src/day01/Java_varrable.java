@@ -24,7 +24,7 @@ public class Java_varrable {
 		float num2 = 3.14F;//3.14는 double형이기 때문에 반드시 접미사를 붙여야 함
 		double num3 = 3.14;
 		boolean isEven = true;
-		int num4 = '1';
+		int num4 = '2';
 		System.out.println(num4);
 	
 

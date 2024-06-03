@@ -20,30 +20,42 @@ public class UpDownGame {
 		
 		System.out.println("랜덤한 수 : " + ran);
 		
-		Scanner scan = new Scanner(System.in);
-		int num = scan.nextInt();
-		System.out.println(num);
+		Scanner scan = new Scanner(System.in);		
+		int num;
 		
 		do {
+			System.out.println("정수 입력 : "); //정수 입력 : 이라는 안내 문구 출력
+			num = scan.nextInt();//int num = scan.nextInt(); 이렇게 쓰면 오류가 발생함
+			System.out.println(num);
+								
 			if(ran > num) {
 				System.out.println("Up!");
+				//num이 ran보다 작다면 up! 출력
 			}			
 			else if(ran < num) {
 				System.out.println("Down");
+				//num이 ran보다 크다면 down출력
+			}
+			else if(ran == num) {
+				System.out.println("정답입니다");
+				//num이 ran과 같다면 정답입니다 출력
 			}
 			else {
-				System.out.println("정답입니다");
+				System.out.println("정확하지 않은 수 입니다");
+				//1보다 낮거나 100보다 큰 수를 입력했을 때
 			}
-			while(num =)
+		}while(num != ran);
+			//랜덤한 수가 입력한 정수와 같이 않을 때 재시작을 해야함
+	
+	}
+}
+	
 		
-		
+	
+
 		
 		
 	
-				
-		
-		}
-	}
 	
 
 

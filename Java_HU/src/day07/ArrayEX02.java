@@ -1,6 +1,7 @@
 package day07;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class ArrayEX02 {
 
@@ -11,7 +12,7 @@ public class ArrayEX02 {
 		int[]list = new int[3];
 		int count = 0;
 		int min = 1, max = 9;
-		int random;
+		int random, i;
 		/* 반복횟수 : 저장된 숫자가 3개가 아닐 때 반복 => 저장된 숫자가 3보다 작을 때
 		 * 규칙성 : 랜덤한 수를 생성해서 중복되지 않으면 저장
 		 * 반복문 종료 후 : 배열에 저장된 숫자 출력
@@ -37,7 +38,7 @@ public class ArrayEX02 {
 			}
 			//없으면 배열에 추가한 후 저장된 개수를 1증가
 		}
-		System.out.println(Array.toString(list));
+		System.out.println(Arrays.toString(list));
 		
 
 	}

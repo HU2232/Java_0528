@@ -1,5 +1,7 @@
 package HomeWorks;
 
+import java.util.Scanner;
+
 public class PhoneEX01 {
 
 	public static void main(String[] args) {
@@ -45,7 +47,38 @@ public class PhoneEX01 {
 		 * ---------------
 		 * 번호를 삭제했습니다.
  		 * */
+		
+		Scanner scan = new Scanner(System.in);
+		int menu;
+		Number [] list = new Number[10];
+		
+		
+		
+		do {
+			printMenu();
+			menu = scan.nextInt();
+			
+			switch(menu) {
+				case 1: 
+					
+				case 2: 
+					
+				case 3: 
+					
+				case 4: 
+					
+				case 5: 
+					System.out.println("프로그램을 종료합니다");
+				}
+			}while(menu  != 5);
 
 	}
-
+	public static  void printMenu() {
+		System.out.println("1. 연락처 추가");
+		System.out.println("2. 연락처 검색");
+		System.out.println("3. 연락처 삭제");
+		System.out.println("4. 연락처 검색");
+		System.out.println("5. 프로그램 종료");
+		System.out.print("프로그램 선택 : ");
+	}
 }

@@ -73,7 +73,7 @@ public class PhoneEX01 {
 			}while(menu  != 5);
 
 	}
-	public static  void printMenu() {
+	public static void printMenu() {
 		System.out.println("1. 연락처 추가");
 		System.out.println("2. 연락처 검색");
 		System.out.println("3. 연락처 삭제");

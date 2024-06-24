@@ -3,7 +3,7 @@ package day18;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-public class SychronizedEX02 {
+public class SynchronizedEX02 {
 
 	public static void main(String[] args) {
 		//은행 잔고를 통한 동기화 블록 예제

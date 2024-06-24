@@ -1,4 +1,4 @@
-package HomeWorks;
+package HomeWorks.Members.V1;
 
 public class Main {
 	/* 일정을 관리하는 프로그램을 작성하시오

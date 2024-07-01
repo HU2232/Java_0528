@@ -1,11 +1,21 @@
 package day19.Post;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.util.List;
 import java.util.Objects;
 
+import HomeWorks.Members.V1.Schedule;
 import lombok.Data;
 
 @Data
-public class Post {
+public class Post implements Serializable {
+		
+	private static final long serialVersionUID = 12345L;
+		
 		
 		//제목, 내용, 작성자, 비번
 		private String title;
@@ -18,6 +28,14 @@ public class Post {
 		
 		//게시글 번호를 생성할 때 사용
 		private static int count = 0;
+		
+		public static int getCount() {
+			return count;
+		}
+		public static void setCount(int count1) {
+			count = count1;
+		}
+		
 		
 		//이 생성자를 이용할 때만 게시글 번호를 1 증가하도록 함
 		public Post(String title, String contents, String ID, String PW) {

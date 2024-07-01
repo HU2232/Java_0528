@@ -1,0 +1,16 @@
+package Student;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//학생의 성적을 관리하기 위한 클래스를 만드려고 한다, 이 때 필요한 클래스를 만들어보시오
+		/* 학생
+		 * - 학년, 반, 번호, 이름
+		 * - 각 과목의 점수
+		 * 과목
+		 * - 과목명, 학년, 학기, 중간, 기말, 수행평가
+		 */
+		StudentManager sm = new StudentManager();
+		sm.run();
+	}
+}

@@ -12,8 +12,7 @@ public class EX17 {
 			fw.write('b');
 			fw.write('c');
 			fw.flush();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
